@@ -3,7 +3,7 @@ const moment = require('moment');
 const simpleGit = require('simple-git');
 const random = require('random');
 const FILE_PATH = './data.json';
-const makeCommit = n => {
+const makeCommit = n =>  {
     console.log('value of n is',n);
     if(n===0){ 
         console.log('executed');
