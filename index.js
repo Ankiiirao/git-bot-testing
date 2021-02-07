@@ -22,4 +22,4 @@ const makeCommit = n =>  {
         makeCommit.bind(this,--n));
     });
 }
-makeCommit(10);
+makeCommit(200);
